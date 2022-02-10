@@ -1,0 +1,38 @@
+.hero-section{
+    background-image: url("./Assets/hero-img3.jpg");
+    background-position: center;
+    margin-top: 2rem;
+    height: 50vh; 
+    width: 100%;
+    color: var(--grayishWhite);
+    gap: 1.6rem
+}
+.hero-section h1:nth-child(1){
+    background: var(--grayishWhite);
+    color: var(--primary-color);
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+}
+.text-sec{
+    color: var(--secondary-color);
+    font-size: inherit;
+}
+.card-horizontal{
+    width: 50rem;
+    padding: 2rem;
+}
+.card-info h4{
+    color: var(--primary-color);
+}
+.footer{
+    gap: 1rem;
+}
+.footer-list{
+    gap: 3rem; 
+    font-weight: bold;
+}
+
+.social-link i{
+    font-size: 2rem;
+    color: var(--secondary-color);
+}
