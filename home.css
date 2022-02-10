@@ -17,11 +17,6 @@
     color: var(--secondary-color);
     font-size: inherit;
 }
-.new-arrival-section{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
 .card-horizontal{
     width: 50rem;
     padding: 2rem;
