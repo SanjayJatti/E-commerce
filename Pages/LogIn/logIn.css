@@ -1,0 +1,28 @@
+.log-in-wrapper{
+    position: relative;
+    top: 17vh;
+}
+.form-container{
+    width: 40rem;
+    height: 40rem;
+    gap:1rem
+}
+
+.form-title{
+    align-self: center;
+}
+.forget-password{
+  gap: 1rem;
+  align-items: center;
+}
+
+/* margin: auto;
+display: flex;
+flex-direction: column;
+justify-content: center;
+gap: 0.7rem;
+max-width: 25rem;
+background-color: white;
+padding: 3rem;
+border-radius: 0.5rem;
+box-shadow: var(--shadow); */

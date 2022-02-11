@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log In</title>
+    <link rel="stylesheet" href="https://matrix-ui.netlify.app/style.css">
+    <link rel="stylesheet" href="/style.css">
+    <script src="https://kit.fontawesome.com/52c15eb80a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!--------- header---------->
+    <div class="navbar-container">
+        <a href="#" class="nav-link header-title nav-hover"><h2>Maaza</h2></a>
+       
+        <ul class="nav-list nav-items">
+            <li class="nav-item">
+                <a class="nav-link nav-hover" href="#">Products</a>
+            </li>  
+        </ul>
+        <div class="search-box-container m-auto">
+            <div class="search-box flex-center">
+                <input class="search-txt" type="search" name="search" placeholder="Type to search">
+                <a class="search-btn flex-center" href="#"><i class="fas fa-search"></i></a>
+            </div>
+        </div>
+  
+        <ul class="nav-list nav-social-media">
+            <li class="nav-item">
+                <a class="nav-link" href="#">
+                    <img class="avatar avatar-xsm" src="/Assets/avatar.svg" alt="avatar">
+                </a></li>
+            <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fas fa-heart"></i></a></li>
+            <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fas fa-shopping-cart"></i></a></li>
+        </ul> 
+    </div>
+    <!-------Log In -------->
+    <div class="log-in-wrapper flex-center">
+        <form class="form-container">
+            <h1 class="form-title primary">Log In</h1>
+            <div class="input-container">
+                <label for="email">Email*</label>
+                <input required type="email" name="email" id="email" placeholder="example@xyz.com" >
+            </div>
+            <div class="input-container">
+                <label for="password">Password*</label>
+                <input required type="password" name="password" id="password">
+            </div>
+            <div class="forget-password flex-row">
+                <div class="input-checkbox">
+                    <input type="checkbox" id="remember-me" name="remember-me" value="remember-me">
+                    <label class="text-medium" for="remember-me">Remember me</label>
+                </div>
+                <a class="text-medium primary"href="#"> Forget your password?</a>
+            </div>
+            <button type="submit" class="btn btn-primary">Log In</button>
+            <p  class="text-medium">Don't have an account?  <span><a class="text-medium primary" href="#">Create an account</a></span></p>
+        </form>    
+    </div>   
+    
+</body>
+</html>
