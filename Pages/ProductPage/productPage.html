@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <link rel="stylesheet" href="https://matrix-ui.netlify.app/style.css">
+    <link rel="stylesheet" href="/style.css">
+    <script src="https://kit.fontawesome.com/52c15eb80a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!--------- header---------->
+    <div class="navbar-container">
+        <a href="#" class="nav-link header-title nav-hover"><h2>Maaza</h2></a>
+       
+        <ul class="nav-list nav-items">
+            <li class="nav-item">
+                <a class="nav-link nav-hover" href="#">Products</a>
+            </li>  
+        </ul>
+        <div class="search-box-container m-auto">
+            <div class="search-box flex-center">
+                <input class="search-txt" type="search" name="search" placeholder="Type to search">
+                <a class="search-btn flex-center" href="#"><i class="fas fa-search"></i></a>
+            </div>
+        </div>
+  
+        <ul class="nav-list nav-social-media">
+            <li class="nav-item">
+                <a class="nav-link" href="#">
+                    <img class="avatar avatar-xsm" src="/Assets/avatar.svg" alt="avatar">
+                </a></li>
+            <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fas fa-heart"></i></a></li>
+            <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fas fa-shopping-cart"></i></a></li>
+        </ul> 
+    </div>
+    <!-------filters -------->
+    <div class="filter-wrapper flex-column">
+        <div class="filter-header flex-row vertical-gutter-sm">
+            <h4>Filters</h4>
+            <span>Clear</span>
+        </div>
+        <h4>Category</h4>
+        <form class="form-wrapper flex-column vertical-gutter-sm">
+            <div class="input-radio">
+                <input type="radio" id="For men" name="Category" value="For men">
+                <label for="For men">For Men</label>
+            </div>
+            <div class="input-radio">
+                <input type="radio" id="For Women" name="Category" value="For Women">
+                <label for="For Women">For Women</label>   
+            </div>
+        </form> 
+        <h4>Rating</h4>
+        <form class="form-wrapper flex-column vertical-gutter-sm">
+            <div class="input-checkbox">
+                <input type="checkbox" id="Category1" name="Category1" value="4 star & above">
+                <label for="Category1">4 <span class="star-md"><i class="fas fa-star checked"></i></span> & above</label>
+            </div>
+            <div class="input-checkbox">  
+            <input type="checkbox" id="Category2" name="Category2" value="3 star & above">
+            <label for="Category2">3 <span class="star-md"><i class="fas fa-star checked"></i></span> & above</label>
+            </div>
+            <div class="input-checkbox">
+                <input type="checkbox" id="Category3" name="Category3" value="2 star & above">
+                <label for="Category3">2 <span class="star-md"><i class="fas fa-star checked"></i></span> & above</label>
+            </div>
+            <div class="input-checkbox">  
+            <input type="checkbox" id="Category4" name="Category4" value="1 star & above">
+            <label for="Category4">1 <span class="star-md"><i class="fas fa-star checked"></i></span> & above</label>
+            </div>
+        </form>
+        <h4>By Brand Name</h4>
+        <form class="form-wrapper flex-column vertical-gutter-sm">
+            <div class="input-checkbox">
+                <input type="checkbox" id="Category1" name="Category1" value="CASIO">
+                <label for="Category1">CASIO</label>
+            </div>
+            <div class="input-checkbox">  
+            <input type="checkbox" id="Category2" name="Category2" value="Fastrack">
+            <label for="Category2">Fastrack</label>
+            </div>
+            <div class="input-checkbox">
+                <input type="checkbox" id="Category3" name="Category3" value="FOSSIL">
+                <label for="Category3">FOSSIL</label>
+            </div>
+            <div class="input-checkbox">  
+            <input type="checkbox" id="Category4" name="Category2" value="Titan">
+            <label for="Category4">Titan</label>
+            </div>
+        <h4>Sort by</h4>
+        <form class="form-wrapper flex-column vertical-gutter-sm">
+            <div class="input-radio">
+                <input type="radio" id="Price-Low to High" name="sort-by" value="Price-Low to High">
+                <label for="Price-Low to High">Price-Low to High</label>
+            </div>
+            <div class="input-radio">
+                <input type="radio" id="Price-High to Low" name="sort-by" value="Price-High to Low">
+                <label for="Price-High to Low">Price-High to Low</label>   
+            </div>
+        </form> 
+    </div>
+    <!------ Main ------->
+    <div class="main-wrapper flex-row f-wrap">
+        <div class="card card-vertical">
+            <img class="img-responsive" src="/Assets/brand1.jpg" alt="wrist watch image">
+            <div class="card-info">
+                <h4>Wrist Watch</h4>
+                <p>Analog Watch</p>
+            </div>
+            <div class="card-price">
+                <h4>₹1,865</h4>
+                <h4 class="light strikethrough">₹2,195 </span></h4>
+                <h5 class="discount">(15% OFF)</span></h5>
+            </div>
+                <div class="button-container">
+                    <button class="btn btn-primary btn-long">Add to Cart</button>
+                </div>
+                <a class="btn btn-absolute" href="#"><span><i class="far fa-heart fa-2x"></i></span></a>
+                <div id="badge-absolute" class="badge bg-danger">New</div>
+        </div>
+        <div class="card card-vertical">
+            <img class="img-responsive" src="/Assets/brand3.jpg" alt="wrist watch image">
+            <div class="card-info">
+                <h4>Wrist Watch</h4>
+                <p>Analog Watch</p>
+            </div>
+            <div class="card-price">
+                <h4>₹1,865</h4>
+                <h4 class="light strikethrough">₹2,195 </span></h4>
+                <h5 class="discount">(15% OFF)</span></h5>
+            </div>
+                <div class="button-container">
+                    <button class="btn btn-primary btn-long">Add to Cart</button>
+                </div>
+                <a class="btn btn-absolute" href="#"><span><i class="far fa-heart fa-2x"></i></span></a>
+                <div id="badge-absolute" class="badge bg-danger">New</div>
+        </div>
+        <div class="card card-vertical">
+            <img class="img-responsive" src="/Assets/brand1.jpg" alt="wrist watch image">
+            <div class="card-info">
+                <h4>Wrist Watch</h4>
+                <p>Analog Watch</p>
+            </div>
+            <div class="card-price">
+                <h4>₹1,865</h4>
+                <h4 class="light strikethrough">₹2,195 </span></h4>
+                <h5 class="discount">(15% OFF)</span></h5>
+            </div>
+                <div class="button-container">
+                    <button class="btn btn-primary btn-long">Add to Cart</button>
+                </div>
+                <a class="btn btn-absolute" href="#"><span><i class="far fa-heart fa-2x"></i></span></a>
+                <div id="badge-absolute" class="badge bg-danger">New</div>
+        </div>
+        <div class="card card-vertical">
+            <img class="img-responsive" src="/Assets/brand1.jpg" alt="wrist watch image">
+            <div class="card-info">
+                <h4>Wrist Watch</h4>
+                <p>Analog Watch</p>
+            </div>
+            <div class="card-price">
+                <h4>₹1,865</h4>
+                <h4 class="light strikethrough">₹2,195 </span></h4>
+                <h5 class="discount">(15% OFF)</span></h5>
+            </div>
+                <div class="button-container">
+                    <button class="btn btn-primary btn-long">Add to Cart</button>
+                </div>
+                <a class="btn btn-absolute" href="#"><span><i class="far fa-heart fa-2x"></i></span></a>
+                <div id="badge-absolute" class="badge bg-danger">New</div>
+        </div>
+        <div class="card card-vertical">
+            <img class="img-responsive" src="/Assets/brand3.jpg" alt="wrist watch image">
+            <div class="card-info">
+                <h4>Wrist Watch</h4>
+                <p>Analog Watch</p>
+            </div>
+            <div class="card-price">
+                <h4>₹1,865</h4>
+                <h4 class="light strikethrough">₹2,195 </span></h4>
+                <h5 class="discount">(15% OFF)</span></h5>
+            </div>
+                <div class="button-container">
+                    <button class="btn btn-primary btn-long">Add to Cart</button>
+                </div>
+                <a class="btn btn-absolute" href="#"><span><i class="far fa-heart fa-2x"></i></span></a>
+                <div id="badge-absolute" class="badge bg-danger">New</div>
+        </div>
+        <div class="card card-vertical">
+            <img class="img-responsive" src="/Assets/brand1.jpg" alt="wrist watch image">
+            <div class="card-info">
+                <h4>Wrist Watch</h4>
+                <p>Analog Watch</p>
+            </div>
+            <div class="card-price">
+                <h4>₹1,865</h4>
+                <h4 class="light strikethrough">₹2,195 </span></h4>
+                <h5 class="discount">(15% OFF)</span></h5>
+            </div>
+            <div class="button-container">
+                <button class="btn btn-primary btn-long">Add to Cart</button>
+            </div>
+            <a class="btn btn-absolute" href="#"><span><i class="far fa-heart fa-2x"></i></span></a>
+        </div>
+        <div class="card card-vertical">
+            <img class="img-responsive" src="/Assets/brand3.jpg" alt="wrist watch image">
+            <div class="card-info">
+                <h4>Wrist Watch</h4>
+                <p>Analog Watch</p>
+            </div>
+            <div class="card-price">
+                <h4>₹1,865</h4>
+                <h4 class="light strikethrough">₹2,195 </span></h4>
+                <h5 class="discount">(15% OFF)</span></h5>
+            </div>
+            <div class="button-container">
+                <button class="btn btn-primary btn-long">Add to Cart</button>
+            </div>
+            <a class="btn btn-absolute" href="#"><span><i class="far fa-heart fa-2x"></i></span></a>
+        </div>
+        <div class="card card-vertical">
+            <img class="img-responsive" src="/Assets/brand1.jpg" alt="wrist watch image">
+            <div class="card-info">
+                <h4>Wrist Watch</h4>
+                <p>Analog Watch</p>
+            </div>
+            <div class="card-price">
+                <h4>₹1,865</h4>
+                <h4 class="light strikethrough">₹2,195 </span></h4>
+                <h5 class="discount">(15% OFF)</span></h5>
+            </div>
+            <div class="button-container">
+                <button class="btn btn-primary btn-long">Add to Cart</button>
+            </div>
+            <a class="btn btn-absolute" href="#"><span><i class="far fa-heart fa-2x"></i></span></a>
+        </div>
+    </div>
+    
+    
+</body>
+</html>

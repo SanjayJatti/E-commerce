@@ -1,0 +1,39 @@
+.filter-wrapper{
+    position: fixed;
+    top: 11.5vh;
+    left: 0;;
+    width: 17vw;
+    min-height: 88vh;
+    border-right: 1px solid var(--light-secondary-color);
+    padding: 1.6rem;
+    background: var(--white);
+}
+.filter-header{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.filter-header span{
+    color: var(--primary-color);
+    font-size: 1.6rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+.form-wrapper{
+    gap: 0.3rem;
+} 
+.star-md{
+    font-size: 1.6rem;
+}
+
+.main-wrapper{
+    position: relative;
+    left: 20vw;
+    top: 12vh;
+    padding: 2rem;
+    max-width: 83vw;
+    gap: 4rem;
+}
+.main-wrapper h4{
+    display: block;
+}
