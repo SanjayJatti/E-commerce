@@ -6,13 +6,13 @@
 .form-container{
     width: 40rem;
     height: 40rem;
-    gap:1rem
+    gap: var(--scale-sm);
 }
 
 .form-title{
     align-self: center;
 }
 .forget-password{
-  gap: 1rem;
+  gap: var(--scale-sm);
   align-items: center;
 }
