@@ -19,9 +19,6 @@
     font-weight: bold;
     cursor: pointer;
 }
-.form-wrapper{
-    gap: var(--scale-xxs);
-} 
 .star-md{
     font-size: var(--default-font-size);
 }
