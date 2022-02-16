@@ -3,7 +3,7 @@
     top:0;
     left:0;
     width: 100%;
-    z-index: var(--z-index-5);
+    z-index: var(--z-index-xxl);
 }
 .hero-section{
     background-image: url("./Assets/hero-img3.jpg");

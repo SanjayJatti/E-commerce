@@ -1,11 +1,11 @@
 .filter-wrapper{
     position: fixed;
-    top: 11.5vh;
-    left: 0;;
+    top: 12vh;
+    left: 0;
     width: 17vw;
     min-height: 88vh;
     border-right: 1px solid var(--light-secondary-color);
-    padding: 1.6rem;
+    padding: var(--scale-lg);
     background: var(--white);
 }
 .filter-header{
@@ -15,24 +15,24 @@
 
 .filter-header span{
     color: var(--primary-color);
-    font-size: 1.6rem;
+    font-size: var(--default-font-size);
     font-weight: bold;
     cursor: pointer;
 }
 .form-wrapper{
-    gap: 0.3rem;
+    gap: var(--scale-xxs);
 } 
 .star-md{
-    font-size: 1.6rem;
+    font-size: var(--default-font-size);
 }
 
 .main-wrapper{
     position: relative;
     left: 20vw;
     top: 12vh;
-    padding: 2rem;
+    padding: var(--scale-xl);
     max-width: 83vw;
-    gap: 4rem;
+    gap: var(--scale-xl);
 }
 .main-wrapper h4{
     display: block;
