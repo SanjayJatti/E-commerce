@@ -22,7 +22,7 @@
     border-radius: var(--scale-xxs);
 }
 .card-horizontal{
-    width: 50rem;
+    width: 35rem;
 }
 .social-link i{
     font-size: var(--scale-lg);
