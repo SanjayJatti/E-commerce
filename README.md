@@ -20,6 +20,4 @@ HTML-5, CSS-3, Vanilla JavaScript
 
 
 ## Demo
-
-
-
+![e-commerce-gif](https://user-images.githubusercontent.com/88648908/154847622-98e448c4-31b7-4b8c-8417-723a52e2e148.gif)
