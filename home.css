@@ -8,6 +8,13 @@
     left:0;
     width: 100%;
     z-index: var(--z-index-xxl);
+    background-color: var(--primary-color);
+}
+.nav-link{
+    color: var(--off-white);
+}
+.nav-link h2{
+    color: var(--off-white);
 }
 .hero-section{
     background-image: url("./Assets/hero-img3.jpg");
@@ -27,4 +34,11 @@
 .social-link i{
     font-size: var(--scale-lg);
     color: var(--secondary-color);
+}
+.footer{
+    background-color: var(--primary-color);
+    color: var(--off-white);
+}
+.footer i{
+    color: var(--off-white);
 }
