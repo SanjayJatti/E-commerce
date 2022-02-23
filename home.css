@@ -16,6 +16,15 @@
 .nav-link h2{
     color: var(--off-white);
 }
+.nav-social-media{
+    margin-right: var(--scale-xxl);
+}
+.search-box{
+    background-color: var(--off-white);
+}
+.search-txt{
+    color: var(--secondary-color);
+}
 .hero-section{
     background-image: url("./Assets/hero-img3.jpg");
     background-position: center;
